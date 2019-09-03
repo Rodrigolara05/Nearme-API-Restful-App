@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 157c25Dc$
+    url: jdbc:postgresql://127.0.0.1/nearme
+    username: postgres
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
